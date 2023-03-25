@@ -119,6 +119,8 @@ extension ScheduleViewController: UITableViewDataSource, UITableViewDelegate {
         }
         let scheduledItemsForSelectedDate = scheduledItems.filter({ $0.date == selectedDate })
         cell.textLabel?.text = scheduledItemsForSelectedDate[indexPath.row].title
+        cell.detailTextLabel?.text = "\(scheduledItemsForSelectedDate[indexPath.row].description ?? "")  \(scheduledItemsForSelectedDate[indexPath.row].date)"
+        
         return cell
     }
     
