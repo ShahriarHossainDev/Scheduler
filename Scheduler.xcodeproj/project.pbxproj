@@ -56,15 +56,87 @@
 		FA4E5AB129CECC6300068DF1 /* Scheduler */ = {
 			isa = PBXGroup;
 			children = (
-				FA4E5AB229CECC6300068DF1 /* AppDelegate.swift */,
-				FA4E5AB429CECC6300068DF1 /* SceneDelegate.swift */,
+				FA4E5ACA29CECCB900068DF1 /* Application */,
+				FA4E5AC929CECCAF00068DF1 /* Constant */,
+				FA4E5AC829CECCA300068DF1 /* Serecns */,
+				FA4E5AC729CECC9700068DF1 /* Storyboard */,
+				FA4E5AC629CECC8C00068DF1 /* Resourecs */,
 				FA4E5AB629CECC6300068DF1 /* ViewController.swift */,
-				FA4E5AB829CECC6300068DF1 /* Main.storyboard */,
-				FA4E5ABB29CECC6500068DF1 /* Assets.xcassets */,
-				FA4E5ABD29CECC6500068DF1 /* LaunchScreen.storyboard */,
 				FA4E5AC029CECC6500068DF1 /* Info.plist */,
 			);
 			path = Scheduler;
+			sourceTree = "<group>";
+		};
+		FA4E5AC629CECC8C00068DF1 /* Resourecs */ = {
+			isa = PBXGroup;
+			children = (
+				FA4E5ABB29CECC6500068DF1 /* Assets.xcassets */,
+			);
+			path = Resourecs;
+			sourceTree = "<group>";
+		};
+		FA4E5AC729CECC9700068DF1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FA4E5AB829CECC6300068DF1 /* Main.storyboard */,
+				FA4E5ABD29CECC6500068DF1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		FA4E5AC829CECCA300068DF1 /* Serecns */ = {
+			isa = PBXGroup;
+			children = (
+				FA4E5ACB29CECD3C00068DF1 /* Schedule */,
+			);
+			path = Serecns;
+			sourceTree = "<group>";
+		};
+		FA4E5AC929CECCAF00068DF1 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		FA4E5ACA29CECCB900068DF1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FA4E5AB229CECC6300068DF1 /* AppDelegate.swift */,
+				FA4E5AB429CECC6300068DF1 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FA4E5ACB29CECD3C00068DF1 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				FA4E5ACD29CECD4700068DF1 /* Model */,
+				FA4E5ACC29CECD4100068DF1 /* View */,
+				FA4E5ACE29CECD4D00068DF1 /* ViewModel */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		FA4E5ACC29CECD4100068DF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA4E5ACD29CECD4700068DF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA4E5ACE29CECD4D00068DF1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
